@@ -1,0 +1,17 @@
+{
+  "name": "styled-ssr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Oscar Wallhult",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jsdom": "^11.5.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styled-components": "^1.4.6"
+  },
+  "scripts": {
+    "example": "nodemon examples/example.js"
+  }
+}
