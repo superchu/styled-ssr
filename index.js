@@ -41,7 +41,7 @@ const renderWithTreeWalker = element => {
 };
 
 const renderWithJuice = element => {
-  const htmlString = ReactDOMServer.renderToStaticMarkup(element);  
+  const htmlString = ReactDOMServer.renderToStaticMarkup(element);
   const cssMap = cssToMap(globalStyleSheet.sheet, componentStyleSheet.sheet);
 
   const styles = [];
@@ -49,9 +49,7 @@ const renderWithJuice = element => {
     styles.push(`${key} { ${value} }`);
   });
  
-  const style = `<style>${styles.join('')}</style>`;
-
-  return juice(`${style}${htmlString}`);
+  return juice.inlineContent(htmlString, styles.join(''));
 };
 
 module.exports = renderWithJuice;
