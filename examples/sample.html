@@ -1,0 +1,313 @@
+<style type="text/css">html,
+  body,
+  p,
+  div,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul,
+  ol,
+  dl,
+  img,
+  pre,
+  form,
+  fieldset {
+    margin: 0;
+    padding: 0;
+  }
+  img,
+  fieldset {
+    border: 0;
+  }
+  body,
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    background-color: #FFF;
+    color: #172B4D;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.42857142857143;
+    letter-spacing: -0.005em;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    text-decoration-skip: ink;
+  }
+  p,
+  ul,
+  ol,
+  dl,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  blockquote,
+  pre,
+  form,
+  table {
+    margin: 12px 0 0 0;
+  }
+  a {
+    color: #0052CC;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #0065FF;
+    text-decoration: underline;
+  }
+  a:active {
+    color: #0747A6;
+  }
+  a:focus {
+    outline: 2px solid #4C9AFF;
+    outline-offset: 2px;
+  }
+  h1 {
+    font-size: 2.07142857em;
+    font-style: inherit;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.10344828;
+    margin-top: 40px;
+  }
+  h2 {
+    font-size: 1.71428571em;
+    font-style: inherit;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1.16666667;
+    margin-top: 28px;
+  }
+  h3 {
+    font-size: 1.42857143em;
+    font-style: inherit;
+    font-weight: 500;
+    letter-spacing: -0.008em;
+    line-height: 1.2;
+    margin-top: 28px;
+  }
+  h4 {
+    font-size: 1.14285714em;
+    font-style: inherit;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.006em;
+    margin-top: 24px;
+  }
+  h5 {
+    font-size: 1em;
+    font-style: inherit;
+    font-weight: 600;
+    line-height: 1.14285714;
+    letter-spacing: -0.003em;
+    margin-top: 16px;
+  }
+  h6 {
+    color: #5E6C84;
+    font-size: 0.85714286em;
+    font-weight: 600;
+    line-height: 1.33333333;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  ul,
+  ol,
+  dl {
+    padding-left: 40px;
+  }
+  [dir="rtl"]ul,
+  [dir="rtl"]ol,
+  [dir="rtl"]dl {
+    padding-left: 0;
+    padding-right: 40px;
+  }
+  dd,
+  dd + dt,
+  li + li {
+    margin-top: 4px;
+  }
+  ul ul:not(:first-child),
+  ol ul:not(:first-child),
+  ul ol:not(:first-child),
+  ol ol:not(:first-child) {
+    margin-top: 4px;
+  }
+  p:first-child,
+  ul:first-child,
+  ol:first-child,
+  dl:first-child,
+  h1:first-child,
+  h2:first-child,
+  h3:first-child,
+  h4:first-child,
+  h5:first-child,
+  h6:first-child,
+  blockquote:first-child,
+  pre:first-child,
+  form:first-child,
+  table:first-child {
+    margin-top: 0;
+  }
+  blockquote,
+  q {
+    color: inherit;
+  }
+  blockquote {
+    border: none;
+    padding-left: 40px;
+  }
+  [dir="rtl"] blockquote {
+    padding-left: 0;
+    padding-right: 40px;
+  }
+  blockquote::before,
+  q:before {
+    content: "\201C";
+  }
+  blockquote::after,
+  q::after {
+    content: "\201D";
+  }
+  blockquote::before {
+    float: left;
+    margin-left: -1em;
+    text-align: right;
+    width: 1em;
+  }
+  [dir="rtl"] blockquote::before {
+    float: right;
+    margin-right: -1em;
+    text-align: left;
+  }
+  blockquote > :last-child {
+    display: inline-block;
+  }
+  small {
+    color: #5E6C84;
+    font-size: 0.85714286em;
+    font-weight: normal;
+    line-height: 1.33333333;
+    margin-top: 16px;
+  }
+  code,
+  kbd {
+    font-family: "SFMono-Medium", "SF Mono", "Segoe UI Mono", "Roboto Mono", "Ubuntu Mono", Menlo, Courier, monospace;
+  }
+  var,
+  address,
+  dfn,
+  cite {
+    font-style: italic;
+  }
+  abbr {
+    border-bottom: 1px #ccc dotted;
+    cursor: help;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  thead,
+  tbody,
+  tfoot {
+    border-bottom: 2px solid #DFE1E6;
+  }
+  td,
+  th {
+    border: none;
+    padding: 4px 8px;
+    text-align: left;
+  }
+  th {
+    vertical-align: top;
+  }
+  td:first-child,
+  th:first-child {
+    padding-left: 0;
+  }
+  td:last-child,
+  th:last-child {
+    padding-right: 0;
+  }
+  caption {
+    font-size: 1.42857143em;
+    font-style: inherit;
+    font-weight: 500;
+    letter-spacing: -0.008em;
+    line-height: 1.2;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  template {
+    display: none;
+  }
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
+    display: block;
+  }
+  @-moz-document url-prefix() {
+    img {
+      font-size: 0;
+    }
+    img:-moz-broken {
+      font-size: inherit;
+    }
+  }
+  ._2tRPTNu4Ckc5qGz2N4pnNJ {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    white-space: nowrap !important;
+  }
+  </style>
+<div class="llxWHL" style="color: #172B4D;"><div><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;"><a href="https://www.atlassian.com" target="_blank" title="https://www.atlassian.com" rel="noreferrer noopener" class="josSif" style="color: #0052CC;">Hello, <strong>World!</strong></a></p><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">My favourite emoji are <span>😁</span> <span>:evilburns:</span> <span>:not-an-emoji:</span>. What are yours?</p><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">Hi, my name is... My name is... My name is... My name is <span data-mention-id="1" data-access-level="" class="efrzjG" style="display: inline-table;  white-space: nowrap;"><span class="brAMHI" style="display: table-cell;  background: rgba(9, 30, 66, 0.08);  border: 1px solid transparent;  border-radius: 20px;  color: #42526E;  cursor: pointer;  padding: 0 4px 2px 3px;  white-space: nowrap;  line-height: 16px;">@Oscar Wallhult</span></span> :D</p><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">This is a <span data-mention-id="2" data-access-level="" class="efrzjG" style="display: inline-table;  white-space: nowrap;"><span class="brAMHI" style="display: table-cell;  background: rgba(9, 30, 66, 0.08);  border: 1px solid transparent;  border-radius: 20px;  color: #42526E;  cursor: pointer;  padding: 0 4px 2px 3px;  white-space: nowrap;  line-height: 16px;">@mention</span></span>. And this is a broken <span data-mention-id="mention" data-access-level="" class="efrzjG" style="display: inline-table;  white-space: nowrap;"><span class="brAMHI" style="display: table-cell;  background: rgba(9, 30, 66, 0.08);  border: 1px solid transparent;  border-radius: 20px;  color: #42526E;  cursor: pointer;  padding: 0 4px 2px 3px;  white-space: nowrap;  line-height: 16px;">@unknown</span></span></p><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space:pre-wrap;   word-wrap: break-word;">Mention with restricted access<span data-mention-id="1" data-access-level="APPLICATION" class="efrzjG" style="display: inline-table;  white-space: nowrap;"></span></p><div><span class="ejKoZW" style="display: table-cell;  background: transparent;  border: 1px solid #42526E;  border-radius: 20px;  color: #42526E;  cursor: pointer;  padding: 0 4px 2px 3px;  white-space: nowrap;  line-height: 16px;">@oscar</span></div><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;"></p><p style="font-family: -apple-system, BlinkMacSystemFont, 'SegoeUI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">Mentions with generic ids<span data-mention-id="here" data-access-level="CONTAINER" class="efrzjG" style="display: inline-table;  white-space: nowrap;"><span class="brAMHI" style="display: table-cell;  background: rgba(9, 30, 66, 0.08);  border: 1px solid transparent;  border-radius: 20px;  color: #42526E;  cursor: pointer;  padding: 0 4px 2px 3px;  white-space: nowrap;  line-height: 16px;">@here</span></span><span data-mention-id="all" data-access-level="CONTAINER" class="efrzjG" style="display: inline-table;  white-space: nowrap;"><span class="brAMHI" style="display: table-cell;background: rgba(9, 30, 66, 0.08);  border: 1px solid transparent;  border-radius: 20px;  color: #42526E;  cursor: pointer;  padding: 0 4px 2px 3px;  white-space: nowrap;  line-height: 16px;">@all</span></span></p><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">This is  a   text    with     multiple       spaces                   and                             tabs.</p><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;"><em>italic</em><a href="https://www.atlassian.com" target="_blank" title="https://www.atlassian.com" rel="noreferrer noopener" class="josSif" style="color: #0052CC;">link</a><span style="text-decoration:line-through;">strike-through</span><strong>strong</strong><sub>sub</sub><sup>sup</sup><u>underline</u><span style="color:#ff0000;"> red text</span></p><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">some inline code: <span style="font-family:'SFMono-Medium', 'SF Mono', 'Segoe UI Mono', 'Roboto Mono', 'Ubuntu Mono', Menlo, Courier, monospace;font-size:12px;background:#F4F5F7;color:#172B4D;border-radius:3px;display:inline;overflow-x:auto;padding:2px 4px;transform:translate3d(0,0,0);"><code>const foo = bar();</code></span></p><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">fallback text in node.attrs.text<br>fallback text in node.text<br>[very unknown]</p><div>This is text content inside unknown block</div><div>This is also a piece of text inside unknown block</div><div>Madness?<br>This is <br> <a href="https://en.wikipedia.org/wiki/Sparta" target="_blank" title="https://en.wikipedia.org/wiki/Sparta" rel="noreferrer noopener" class="josSif" style="color: #0052CC;">Sparta!</a></div><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">This is a line with <br>a hardbreak in it.</p><h1 style="font-size: 2.0714285714285716em;   font-style: inherit;   line-height: 1.103448275862069;   font-weight: 600;   letter-spacing: -0.01em;   margin-top: 40px;">Heading 1</h1><h2 style="font-size: 1.7142857142857142em;   font-style: inherit;   line-height: 1.1666666666666667;   font-weight: 500;   letter-spacing: -0.01em;   margin-top: 40px;"><ahref="http://www.atlassian.com" target="_blank" title="http://www.atlassian.com" rel="noreferrer noopener" class="josSif" style="color: #0052CC;">Heading 2</a></h2><h3 style="font-size: 1.4285714285714286em;   font-style: inherit;   line-height: 1.2;   font-weight: 500;   letter-spacing: -0.008em;   margin-top: 28px;">Heading 3</h3><h4 style="font-size: 1.1428571428571428em;   font-style: inherit;   line-height: 1.25;   font-weight: 600;   letter-spacing: -0.006em;   margin-top: 24px;">Heading 4</h4><h5 style="font-size: 1em;   font-style: inherit;   line-height: 1.1428571428571428;   font-weight: 600;   letter-spacing: -0.003em;   margin-top: 16px;">Heading 5</h5><h6 style="font-size: 0.8571428571428571em;   font-style: inherit;   line-height: 1.3333333333333333;   color: #5E6C84;   font-weight: 600;   margin-top: 20px;   text-transform: uppercase;">Heading 6</h6><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">This is a paragraph with a text node
+  that contains a new line</p><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">Click me! <a href="http://www.atlassian.com" target="_blank" title="http://www.atlassian.com" rel="noreferrer noopener" class="josSif" style="color: #0052CC;">www.atlassian.com</a></p><span style="font-family:'SFMono-Medium', 'SF Mono', 'Segoe UI Mono', 'Roboto Mono', 'Ubuntu Mono', Menlo, Courier, monospace;font-size:12px;line-height:20px;background:#F4F5F7;color:#172B4D;border-radius:3px;display:block;overflow-x:auto;white-space:pre;padding-right:16px;transform:translate3d(0,0,0);"><code style="font-size:12px;line-height:20px;color:#8993A4;background-color:#EBECF0;padding:8px;float:left;text-align:right;user-select:none;"><span class="react-syntax-highlighter-line-number">1
+  </span><span class="react-syntax-highlighter-line-number">2
+  </span><span class="react-syntax-highlighter-line-number">3
+  </span><span class="react-syntax-highlighter-line-number">4
+  </span><span class="react-syntax-highlighter-line-number">5
+  </span><span class="react-syntax-highlighter-line-number">6
+  </span><span class="react-syntax-highlighter-line-number">7
+  </span><span class="react-syntax-highlighter-line-number">8
+  </span><span class="react-syntax-highlighter-line-number">9
+  </span><span class="react-syntax-highlighter-line-number">10
+  </span><span class="react-syntax-highlighter-line-number">11
+  </span><span class="react-syntax-highlighter-line-number">12
+  </span><span class="react-syntax-highlighter-line-number">13
+  </span><span class="react-syntax-highlighter-line-number">14
+  </span></code><code style="font-family:'SFMono-Medium', 'SF Mono', 'Segoe UI Mono', 'Roboto Mono', 'Ubuntu Mono', Menlo, Courier, monospace;font-size:12px;top:8px;left:16px;position:relative;padding-right:16px;display:inline-block;"><span style="color:#505F79;font-family:SFMono-MediumItalic, 'SFMono-Medium', 'SF Mono', 'Segoe UI Mono', 'Roboto Mono', 'Ubuntu Mono', Menlo, Courier, monospace;font-style:italic;">// Create a map.</span>
+  final IntIntOpenHashMap map = <span style="color:#0747A6;font-weight:bolder;">new</span> IntIntOpenHashMap();
+  map.put(<span style="color:#0747A6;">1</span>, <span style="color:#0747A6;">2</span>);
+  map.put(<span style="color:#0747A6;">2</span>, <span style="color:#0747A6;">5</span>);
+  map.put(<span style="color:#0747A6;">3</span>, <span style="color:#0747A6;">10</span>);
+  int count = map.forEach(<span style="color:#0747A6;font-weight:bolder;">new</span> IntIntProcedure()
+  {
+     int count;
+     public <span style="color:#0747A6;font-weight:bolder;">void</span> apply(int key, int value)
+     {
+         <span style="color:#0747A6;font-weight:bolder;">if</span> (value &gt;= <span style="color:#0747A6;">5</span>) count++;
+     }
+  }).count;
+  System.out.println(<span style="color:#00875A;">"There are "</span> + count + <span style="color:#00875A;">" values &gt;= 5"</span>);</code></span><ul style="list-style-type: disc;"><li><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">First list item</p></li><li><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">Second list item</p></li><li><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">Third list item</p></li></ul><ol style="list-style-type: decimal;"><li><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">First list item</p></li><li><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size:14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">Second list item</p></li><li><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">Third list item</p></li></ol><blockquote style="margin: 12px 0 0 0;   color: #5E6C84;   border-left: 2px solid #DFE1E6;   padding-left: 16px;"><p style="margin-top: 0;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">All that is gold does not glitter, not all those who wander are lost; The old that is strong does not wither, deep roots are not reached by the frost.</p><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">From the ashes a fire shall be woken, a light from the shadows shall spring; Renewed shall be blade that was broken, the crownless again shall be king.</p><p style="display: inline-block;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;"><em style="margin-top: 0;">J.R.R. Tolkien, The Fellowship of the Ring.</em></p></blockquote><div class="fDmFke" style="border-radius: 3px;  margin: 4px 0;  padding: 8px;  background: #DEEBFF;"><span class="cMCssv" style="position: absolute;  height: 24px;  width: 24px;  color: #0052CC;"><span role="img" aria-label="Panel {panelType}" class="dxpJNw" style="color: currentColor;  display: inline-block;  fill: #FFFFFF;  line-height: 1;"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" role="presentation" style="max-height: 100%;     max-width: 100%;     overflow: hidden;     vertical-align: bottom;"><path d="M13 11.792A2.492 2.492 0 0 1 12 12c-.356 0-.694-.074-1-.208v4.717c0 .263.226.491.505.491h.99a.49.49 0 0 0 .505-.491v-4.717zM12 20a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm0-10a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" fill="currentColor" fill-rule="evenodd"></path></svg></span></span><div class="boSkip" style="margin: 1px 0 1px 32px;"><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">This is an info panel with <strong>bold text</strong></p></div></div><div class="ffzfWP" style="border-radius: 3px;  margin: 4px 0;  padding: 8px;  background: #EAE6FF;"><span class="hsUDqE" style="position: absolute;  height: 24px;  width: 24px;  color: #5243AA;"><span role="img" aria-label="Panel {panelType}" class="dxpJNw" style="color: currentColor;  display: inline-block;  fill: #FFFFFF;  line-height: 1;"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" role="presentation" style="max-height: 100%;    max-width: 100%;     overflow: hidden;     vertical-align: bottom;"><path d="M6 4.496C6 4.222 6.229 4 6.5 4h11a.5.5 0 0 1 .5.496v15.008a.502.502 0 0 1-.5.496h-11a.5.5 0 0 1-.5-.496V4.496zM8 7.5c0 .268.224.5.5.5h7c.27 0 .5-.224.5-.5 0-.268-.224-.5-.5-.5h-7c-.27 0-.5.224-.5.5zm0 3c0 .268.224.5.5.5h7c.27 0 .5-.224.5-.5 0-.268-.224-.5-.5-.5h-7c-.27 0-.5.224-.5.5zm0 3c0 .268.22.5.49.5h3.02c.275 0 .49-.224.49-.5a.5.5 0 0 0-.49-.5H8.49a.492.492 0 0 0-.49.5z" fill="currentColor" fill-rule="evenodd"></path></svg></span></span><div class="boSkip" style="margin: 1px 0 1px 32px;"><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">This is a note panel with <strong>bold text</strong></p></div></div><div class="duIGmV" style="border-radius: 3px;  margin: 4px 0;  padding: 8px;  background: #E3FCEF;"><span class="gExDKY" style="position: absolute;  height: 24px;  width: 24px;  color: #00875A;"><span role="img" aria-label="Panel {panelType}" class="dxpJNw" style="color: currentColor;  display: inline-block;  fill: #FFFFFF;  line-height: 1;"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" role="presentation" style="max-height: 100%;     max-width: 100%;     overflow: hidden;     vertical-align: bottom;"><path d="M14 16h-4s0-.5-1-2-2.5-3-2.5-5S7 4 12 4s5.5 3 5.5 5-1.5 3.5-2.5 5-1 2-1 2zm-4 1h4v1l-1.5 2h-1L10 18v-1z" fill="currentColor" fill-rule="evenodd"></path></svg></span></span><div class="boSkip" style="margin: 1px 0 1px 32px;"><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">This is a tip panel with <strong>bold text</strong></p></div></div><div class="drcTHh" style="border-radius: 3px;  margin: 4px 0;  padding: 8px;  background: #FFFAE6;"><span class="hOjIWB" style="position: absolute;  height: 24px;  width: 24px;  color: #FF991F;"><span role="img" aria-label="Panel {panelType}" class="dxpJNw" style="color: currentColor;  display: inline-block;  fill: #FFFFFF;  line-height: 1;"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" role="presentation" style="max-height: 100%;     max-width: 100%;     overflow: hidden;     vertical-align: bottom;"><g fill-rule="evenodd"><path d="M12.938 4.967c-.518-.978-1.36-.974-1.876 0L3.938 18.425c-.518.978-.045 1.771 1.057 1.771h14.01c1.102 0 1.573-.797 1.057-1.771L12.938 4.967z" fill="currentColor"></path><path d="M12 15a1 1 0 0 1-1-1V9a1 1 0 0 1 2 0v5a1 1 0 0 1-1 1m0 3a1 1 0 0 1 0-2 1 1 0 0 1 0 2" fill="inherit"></path></g></svg></span></span><div class="boSkip" style="margin: 1px 0 1px 32px;"><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">This is a warning panel with <strong>bold text</strong></p></div></div><hr style="border: none;   background-color: rgba(9, 30, 66, 0.08);   height: 2px;   border-radius: 1px;"><p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;">Do not use this image node; it may be removed at any time without notice.<img src="https://www.google.com.au/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" title="Google!" style="max-width: 100%;"></p><div class="akDecisionList"><ol class="icdKMR" style="list-style-type: none;  padding-left: 0;list-style-type: decimal;list-style-type: none;"><li></li></ol></div><div class="akTaskList"><ol class="icdKMR" style="list-style-type: none;  padding-left: 0;list-style-type: decimal;list-style-type: none;"><li></li></ol></div><div class="akDecisionList"><ol class="icdKMR" style="list-style-type: none;  padding-left: 0;list-style-type: decimal;list-style-type: none;"><li><div class="fRvsPj" style="display: -webkit-box;   display: -moz-box;   display: -ms-flexbox;   display: -webkit-flex;   display: flex;  flex-direction: row;  -webkit-box-direction: normal;  -webkit-box-orient: horizontal;  -ms-flex-direction: row;  -webkit-flex-direction: row;  background-color: #F4F5F7;  border-radius: 3px;  margin: 8px 0;  padding: 8px 8px;  min-height: 36px;  box-sizing: border-box;  -moz-box-sizing: border-box;  box-shadow: none;"><span color="#36B37E" class="jezbDm" style="flex: 0 0 16px;   -ms-flex: 0 0 16px;   -webkit-flex: 0 0 16px;  height: 16px;  width: 16px;  color: #36B37E;  margin: 2px 8px 0 0;"><span role="img" aria-label="Decision" class="bHmMhQ" style="height: 32px; width: 32px;  color: currentColor;  display: inline-block;  fill: #FFFFFF;  line-height: 1;margin: -8px;"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" role="presentation" style="height: 32px;   width: 32px;   max-height: 100%;   max-width: 100%;   overflow: hidden;   vertical-align: bottom;"><path d="M9.414 8l3.293 3.293c.187.187.293.442.293.707v5a1 1 0 0 1-2 0v-4.586l-3-3V10.5a1 1 0 0 1-2 0V7a1 1 0 0 1 1-1h3.5a1 1 0 0 1 0 2H9.414zm8.293-1.707a.999.999 0 0 1 0 1.414l-2.5 2.5a.997.997 0 0 1-1.414 0 .999.999 0 0 1 0-1.414l2.5-2.5a.999.999 0 0 1 1.414 0z" fill="currentColor" fill-rule="evenodd"></path></svg></span></span><div class="iYpBge" style="margin: 0;  word-wrap: break-word;  min-width: 0;  flex: 1 1 auto;  -ms-flex:1 1 auto;  -webkit-flex: 1 1 auto;">Hello world<br>This is a decision <span>😉</span> <span data-mention-id="0" data-access-level="CONTAINER" class="efrzjG" style="display: inline-table;  white-space: nowrap;"><span class="brAMHI" style="display: table-cell;  background: rgba(9, 30, 66, 0.08);  border: 1px solid transparent;  border-radius: 20px;  color: #42526E;  cursor: pointer;  padding: 0 4px 2px 3px;  white-space: nowrap;  line-height: 16px;">@Carolyn</span></span> <strong>was</strong> <em><u>here</u></em>.<span data-mention-id="error:NotFound" data-access-level="CONTAINER" class="efrzjG" style="display: inline-table;  white-space: nowrap;"><span class="brAMHI" style="display: table-cell;  background: rgba(9, 30, 66, 0.08);  border: 1px solid transparent;  border-radius: 20px; color: #42526E;  cursor: pointer;  padding: 0 4px 2px 3px;  white-space: nowrap;  line-height: 16px;">@NoLongerWorksHere</span></span> <strong>is not</strong> here.</div></div></li><li><div class="fRvsPj" style="display: -webkit-box;   display: -moz-box;   display: -ms-flexbox;   display: -webkit-flex;   display: flex;  flex-direction: row;  -webkit-box-direction: normal;  -webkit-box-orient: horizontal;  -ms-flex-direction: row;  -webkit-flex-direction: row;  background-color: #F4F5F7;  border-radius: 3px;  margin: 8px 0;  padding: 8px 8px;  min-height: 36px;  box-sizing: border-box;  -moz-box-sizing: border-box;  box-shadow: none;"><span color="#36B37E" class="jezbDm" style="flex: 0 0 16px;   -ms-flex: 0 0 16px;   -webkit-flex: 0 0 16px;  height: 16px;  width: 16px;  color: #36B37E;  margin: 2px 8px 0 0;"><span role="img" aria-label="Decision" class="bHmMhQ" style="height: 32px; width: 32px;  color: currentColor;  display: inline-block;  fill: #FFFFFF;  line-height: 1;margin: -8px;"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" role="presentation" style="height: 32px;   width: 32px;   max-height: 100%;   max-width: 100%;   overflow: hidden;   vertical-align: bottom;"><path d="M9.414 8l3.293 3.293c.187.187.293.442.293.707v5a1 1 0 0 1-2 0v-4.586l-3-3V10.5a1 1 0 0 1-2 0V7a1 1 0 0 1 1-1h3.5a1 1 0 0 1 0 2H9.414zm8.293-1.707a.999.999 0 0 1 0 1.414l-2.5 2.5a.997.997 0 0 1-1.414 0 .999.999 0 0 1 0-1.414l2.5-2.5a.999.999 0 0 1 1.414 0z" fill="currentColor" fill-rule="evenodd"></path></svg></span></span><div class="iYpBge" style="margin: 0;  word-wrap: break-word;  min-width: 0;  flex: 1 1 auto;  -ms-flex: 1 1 auto;  -webkit-flex: 1 1 auto;">decision 2</div></div></li><li></li></ol></div><div class="akTaskList"><ol class="icdKMR" style="list-style-type: none;  padding-left: 0;list-style-type: decimal;list-style-type: none;"><li><div class="fRvsPj" style="display: -webkit-box;   display: -moz-box;   display: -ms-flexbox;   display: -webkit-flex;   display: flex;  flex-direction: row;  -webkit-box-direction: normal;  -webkit-box-orient: horizontal;  -ms-flex-direction: row;  -webkit-flex-direction: row;  background-color: #F4F5F7;  border-radius: 3px;  margin: 8px 0;  padding: 8px 8px;  min-height: 36px;  box-sizing: border-box;  -moz-box-sizing: border-box;  box-shadow: none;"><span contenteditable="false" class="ejKHhI" style="flex: 0 0 16px;   -ms-flex: 0 0 16px;   -webkit-flex: 0 0 16px;  width: 16px;  height: 16px;  position: relative;  align-self: start;  -ms-flex-item-align: start;  -webkit-align-self: start;  margin: 2px 8px 0 0;"><input type="checkbox" id="task-1-0" name="task-1-0" style="position: absolute;   outline: none;   margin: 0;   opacity: 0;   left: 0;   top: 50%;   transform: translateY(-50%);   -ms-transform: translateY(-50%);   -webkit-transform: translateY(-50%);"><label for="task-1-0" style="box-sizing: border-box;-moz-box-sizing: border-box;   display: block;   position: relative;   width: 100%;   cursor: pointer;"></label></span><div class="iYpBge" style="margin: 0;  word-wrap: break-word;  min-width: 0;  flex: 1 1 auto;  -ms-flex: 1 1 auto;  -webkit-flex: 1 1 auto;">Could you please<br>do this <span data-mention-id="0" data-access-level="CONTAINER" class="efrzjG" style="display: inline-table;  white-space: nowrap;"><span class="brAMHI" style="display: table-cell;  background: rgba(9, 30, 66, 0.08);  border: 1px solid transparent;  border-radius: 20px;  color: #42526E;  cursor: pointer;  padding: 0 4px 2px 3px;  white-space: nowrap;  line-height: 16px;">@Carolyn</span></span> <span>😉</span></div></div></li><li><div class="fRvsPj" style="display: -webkit-box;   display: -moz-box;   display: -ms-flexbox;   display: -webkit-flex;   display: flex;  flex-direction: row;  -webkit-box-direction: normal;  -webkit-box-orient: horizontal;  -ms-flex-direction: row;  -webkit-flex-direction: row;  background-color: #F4F5F7;  border-radius: 3px;  margin: 8px 0; padding: 8px 8px;  min-height: 36px;  box-sizing: border-box;  -moz-box-sizing: border-box;  box-shadow: none;"><span contenteditable="false" class="ejKHhI" style="flex: 0 0 16px;   -ms-flex: 0 0 16px;   -webkit-flex: 0 0 16px;  width: 16px;  height: 16px;  position: relative;  align-self: start;  -ms-flex-item-align: start;  -webkit-align-self: start;  margin: 2px 8px 0 0;"><input type="checkbox" id="task-2-1" name="task-2-1" checked="" style="position: absolute;   outline: none;   margin: 0;   opacity: 0;   left: 0;   top: 50%;   transform: translateY(-50%);   -ms-transform: translateY(-50%);   -webkit-transform: translateY(-50%);"><label for="task-2-1" style="box-sizing: border-box;   -moz-box-sizing: border-box;   display: block;   position: relative;   width: 100%;   cursor:pointer;"></label></span><div class="iYpBge" style="margin: 0;  word-wrap: break-word;  min-width: 0;  flex: 1 1 auto;  -ms-flex: 1 1 auto;  -webkit-flex: 1 1 auto;">This is completed</div></div></li><li></li></ol></div><table class="fYrVyd" style="border-collapse: collapse;    margin: 20px 8px;    width: auto;    border: 1px solid #C1C7D0;"><tbody style="box-sizing: border-box;    -moz-box-sizing: border-box;border-bottom: none;"><tr style="box-sizing: border-box;    -moz-box-sizing: border-box;"><th style="box-sizing: border-box;    -moz-box-sizing: border-box;min-width: 3em;    height: 2.5em;    vertical-align: top;    border: 1px solid #C1C7D0;    border-right-width: 0;    border-bottom-width: 0;    padding: 6px 10px;    /* https:.com/questions/7517127/borders-not-shown-in-firefox-with-border-collapse-on-table-position-relative-o */    background-clip: padding-box;background-color: #F4F5F7;    font-weight: bold;    text-align: left;"><p style="box-sizing: border-box;    -moz-box-sizing: border-box;margin: 0;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;"></p></th><th style="box-sizing: border-box;    -moz-box-sizing: border-box;min-width: 3em;    height: 2.5em;    vertical-align: top;    border: 1px solid #C1C7D0;    border-right-width: 0;    border-bottom-width: 0;    padding: 6px 10px;    /* https:.com/questions/7517127/borders-not-shown-in-firefox-with-border-collapse-on-table-position-relative-o */    background-clip: padding-box;background-color: #F4F5F7;    font-weight: bold;    text-align: left;"><p style="box-sizing: border-box;    -moz-box-sizing: border-box;margin: 0;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;"></p></th><th style="box-sizing: border-box;    -moz-box-sizing: border-box;min-width: 3em;    height: 2.5em;    vertical-align: top;    border: 1px solid #C1C7D0;    border-right-width: 0;    border-bottom-width: 0;    padding: 6px 10px;    /* https:.com/questions/7517127/borders-not-shown-in-firefox-with-border-collapse-on-table-position-relative-o */    background-clip: padding-box;background-color: #F4F5F7;    font-weight: bold;    text-align: left;"><p style="box-sizing: border-box;    -moz-box-sizing: border-box;margin: 0;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;"></p></th></tr><tr style="box-sizing:border-box;    -moz-box-sizing: border-box;"><td style="box-sizing: border-box;    -moz-box-sizing: border-box;min-width: 3em;    height: 2.5em;    vertical-align: top;    border: 1px solid #C1C7D0;    border-right-width: 0;    border-bottom-width: 0;    padding:6px 10px;    /* https:.com/questions/7517127/borders-not-shown-in-firefox-with-border-collapse-on-table-position-relative-o */    background-clip: padding-box;"><p style="box-sizing: border-box;    -moz-box-sizing: border-box;margin: 0;font-family: -apple-system,BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;"></p></td><td style="box-sizing: border-box;    -moz-box-sizing: border-box;min-width: 3em;    height: 2.5em;    vertical-align: top;    border: 1px solid #C1C7D0;    border-right-width: 0;    border-bottom-width: 0;    padding: 6px 10px;    /* https:.com/questions/7517127/borders-not-shown-in-firefox-with-border-collapse-on-table-position-relative-o */    background-clip: padding-box;"><p style="box-sizing: border-box;    -moz-box-sizing: border-box;margin: 0;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;"></p></td><td style="box-sizing: border-box;    -moz-box-sizing: border-box;min-width: 3em;    height: 2.5em;    vertical-align: top;    border: 1px solid #C1C7D0;    border-right-width: 0;    border-bottom-width: 0;    padding: 6px 10px;    /* https:.com/questions/7517127/borders-not-shown-in-firefox-with-border-collapse-on-table-position-relative-o */    background-clip: padding-box;"><p style="box-sizing: border-box;    -moz-box-sizing: border-box;margin: 0;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;"></p></td></tr><tr style="box-sizing: border-box;    -moz-box-sizing: border-box;"><td style="box-sizing: border-box;    -moz-box-sizing: border-box;min-width: 3em;    height: 2.5em;    vertical-align: top;    border: 1px solid #C1C7D0;    border-right-width: 0;    border-bottom-width: 0;    padding: 6px 10px;    /* https:.com/questions/7517127/borders-not-shown-in-firefox-with-border-collapse-on-table-position-relative-o */    background-clip: padding-box;"><p style="box-sizing: border-box;    -moz-box-sizing: border-box;margin: 0;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;"></p></td><td style="box-sizing: border-box;    -moz-box-sizing: border-box;min-width: 3em;    height: 2.5em;    vertical-align: top;    border: 1px solid #C1C7D0;    border-right-width: 0;    border-bottom-width: 0;    padding: 6px 10px;    /* https:.com/questions/7517127/borders-not-shown-in-firefox-with-border-collapse-on-table-position-relative-o */    background-clip: padding-box;"><p style="box-sizing: border-box;    -moz-box-sizing: border-box;margin: 0;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;"></p></td><td style="box-sizing: border-box;    -moz-box-sizing: border-box;min-width: 3em;    height: 2.5em;    vertical-align: top;    border: 1px solid #C1C7D0;    border-right-width: 0;    border-bottom-width: 0;    padding: 6px 10px;/* https:.com/questions/7517127/borders-not-shown-in-firefox-with-border-collapse-on-table-position-relative-o */    background-clip: padding-box;"><p style="box-sizing: border-box;    -moz-box-sizing: border-box;margin: 0;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;   font-size: 14px;   font-weight: 400;   line-height: 24px;   white-space: pre-wrap;   word-wrap: break-word;"></p></td></tr></tbody></table></div></div>
